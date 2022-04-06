@@ -1,5 +1,5 @@
 # Framework karate api testing
-![alt, text](https://testmatick.com/wp-content/uploads/2020/04/Karate-Framework-a-Useful-Tool-for-Test-Automation.png)
+![karate image](https://testmatick.com/wp-content/uploads/2020/04/Karate-Framework-a-Useful-Tool-for-Test-Automation.png)
 ## Clone projet
 ```
 #using git
