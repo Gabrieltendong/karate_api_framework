@@ -1,0 +1,10 @@
+<testsuite failures="1" name="src/test/resources/features/product/product.feature" skipped="0" tests="1" time="0">
+  <testcase classname="src.test.resources.features.product.product" name="create product" time="0">
+    <failure message="product.feature:7 - evaluation of 'karate-config.js' failed: javascript function call failed: com.intuit.karate.exception.KarateException: &#10;[1.1:17] login.feature:9 - net.minidev.json.parser.ParseException: Unexpected End Of File position 44: null">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: product.feature:7 - evaluation of 'karate-config.js' failed: javascript function call failed: com.intuit.karate.exception.KarateException: 
+[1.1:17] login.feature:9 - net.minidev.json.parser.ParseException: Unexpected End Of File position 44: null&#13;
+	at ✽.* scenario init failed (product.feature:7)</failure>
+  </testcase>
+</testsuite>

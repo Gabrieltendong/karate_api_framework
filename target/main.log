@@ -1,0 +1,168 @@
+13:09:11.747 >> lock acquired, begin callSingle: file:src/test/resources/features/user/login.feature
+13:09:12.310 request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 47
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:09:14.358 response time in milliseconds: 2044,22
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 331
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:14 GMT
+1 < Etag: W/"14b-HqfKeMjtqmM7t6mQfAtpXXvA+X4"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU"}
+
+13:09:14.358 << lock released, cached callSingle: file:src/test/resources/features/user/login.feature
+13:09:14.373 [print] {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU"
+}
+
+13:09:14.389 request:
+1 > POST https://ztrain-shop.herokuapp.com/product/create
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU
+1 > Connection: Keep-Alive
+1 > Content-Length: 311
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"name":"Samsung Samsung Note Note 9","description":"Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description description Samsung Note 9 description Samsung Note 9 description","image":"https://image.png","price":10,"isActive":false}
+
+13:09:16.299 response time in milliseconds: 1914,30
+1 < 403
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 48
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:16 GMT
+1 < Etag: W/"30-ORabwwxDRuVgNOJ6ZA6+8WXTeLw"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"status":403,"error":"Ce Produit existe déja"}
+
+13:09:16.299 status code was: 403, expected: 201, response time: 1914, url: https://ztrain-shop.herokuapp.com/product/create, response: {"error":"Ce Produit existe déja","status":403}
+13:09:16.349 request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 47
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:09:18.135 response time in milliseconds: 1791,97
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 331
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:17 GMT
+1 < Etag: W/"14b-B91qavfAsN4VXAduUAAKz2x1Svo"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NywiZXhwIjoxNjQ5MzMzMzU3fQ.vc1zqjT8cHKRi3kKRWkQP0TW2tprxPwPhGjEQ_qeu10"}
+
+13:09:18.167 request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 51
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test1234.com","password":"12345678"}
+
+13:09:20.571 response time in milliseconds: 2406,75
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:20 GMT
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"statusCode":400,"message":"user already exists"}
+
+13:09:20.571 status code was: 400, expected: 201, response time: 2407, url: https://ztrain-shop.herokuapp.com/user/register, response: {"message":"user already exists","statusCode":400}
+horter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}
+13:05:22.111 failed function body: function(){
+
+    var env = karate.env;
+
+    if(!env){
+        env="dev"
+    }
+    var config = {
+            baseUrl: 'https://ztrain-shop.herokuapp.com',
+    }
+
+    var result = karate.callSingle('file:src/test/resources/features/user/login.feature', config);
+    config.authInfo = { authorization: "Bearer " + result.token };
+
+    return config
+}
+13:05:22.111 evaluation of 'karate-config.js' failed: javascript function call failed: com.intuit.karate.exception.KarateException: 
+[1.1:17] login.feature:11 - status code was: 400, expected: 201, response time: 4439, url: https://ztrain-shop.herokuapp.com/auth/login, response: {"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}
+13:05:22.123 >> lock acquired, begin callSingle: file:src/test/resources/features/user/login.feature
+13:05:22.123 request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":12345678}
+
+13:05:23.255 response time in milliseconds: 1130,90
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 147
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:05:23 GMT
+1 < Etag: W/"93-I/pr+mBMCpBnc35log8sm4q/ge8"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"statusCode":400,"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request"}
+
+13:05:23.255 status code was: 400, expected: 201, response time: 1131, url: https://ztrain-shop.herokuapp.com/auth/login, response: {"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}
+13:05:23.255 feature call failed: file:src/test/resources/features/user/login.feature
+arg: {"baseUrl":"https://ztrain-shop.herokuapp.com"}
+[1.1:17] login.feature:11 - status code was: 400, expected: 201, response time: 1131, url: https://ztrain-shop.herokuapp.com/auth/login, response: {"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}
+13:05:23.255 javascript function call failed: com.intuit.karate.exception.KarateException: 
+[1.1:17] login.feature:11 - status code was: 400, expected: 201, response time: 1131, url: https://ztrain-shop.herokuapp.com/auth/login, response: {"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}
+13:05:23.255 failed function body: function(){
+
+    var env = karate.env;
+
+    if(!env){
+        env="dev"
+    }
+    var config = {
+            baseUrl: 'https://ztrain-shop.herokuapp.com',
+    }
+
+    var result = karate.callSingle('file:src/test/resources/features/user/login.feature', config);
+    config.authInfo = { authorization: "Bearer " + result.token };
+
+    return config
+}
+13:05:23.255 evaluation of 'karate-config.js' failed: javascript function call failed: com.intuit.karate.exception.KarateException: 
+[1.1:17] login.feature:11 - status code was: 400, expected: 201, response time: 1131, url: https://ztrain-shop.herokuapp.com/auth/login, response: {"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}

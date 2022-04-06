@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>src.test.resources.features.user.login</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2022-04-06 01:08:43 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1.1:17]">[1.1:17] Login user </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/resources/features/user/login.feature</span><span class="feature-description">All feature user</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.1:17]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">login</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.1:17]</span><span class="scenario-name">Login user </span>
+</div>
+<div class="scenario-time passed">ms: 4644</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1.1:17]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* url baseUrl</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="1">13:08:38.475 &lt;&lt; lock released, cached callSingle: file:src/test/resources/features/user/login.feature</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="1.1">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">src/test/resources/features/user/login.feature</div>
+</div>
+<div class="time-cell passed">7209</div>
+</div>
+<div class="callarg-container" data-parent="1.1">
+<div class="step-ref"> 
+</div>
+<div class="preformatted">{
+  "baseUrl": "https://ztrain-shop.herokuapp.com",
+  "authInfo": {
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0NjkxOCwiZXhwIjoxNjQ5MzMzMzE4fQ.WYM0GRd4PQ7-wSOg1cEEbIbogfY0_wlJmSrB03xsLyg"
+  }
+}
+</div>
+</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">* url baseUrl</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="2">13:08:31.200 &gt;&gt; lock acquired, begin callSingle: file:src/test/resources/features/user/login.feature</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="3">
+<div class="step-ref bg-step">3</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">Given path "/auth/login"</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="4">
+<div class="step-ref bg-step">4</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">And request {email: 'test@test.com',password: '12345678'}</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="5">
+<div class="step-ref bg-step">5</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">When method POST</div>
+</div>
+<div class="time-cell passed">7197</div>
+</div>
+<div class="preformatted" data-parent="5">13:08:31.896 request:
+1 &gt; POST https://ztrain-shop.herokuapp.com/auth/login
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 47
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: ztrain-shop.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:08:38.460 response time in milliseconds: 6562,00
+1 &lt; 201
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 331
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 06 Apr 2022 12:08:38 GMT
+1 &lt; Etag: W/"14b-ONEZZV66tE9yx8juHRvMnkz/joE"
+1 &lt; Server: Cowboy
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0NjkxOCwiZXhwIjoxNjQ5MzMzMzE4fQ.WYM0GRd4PQ7-wSOg1cEEbIbogfY0_wlJmSrB03xsLyg"}</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="6">
+<div class="step-ref bg-step">6</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">Then status 201</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row" data-parent="[1.1:17]bg">
+<div class="step-container" id="7">
+<div class="step-ref bg-step">7</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">* def token = response.token</div>
+</div>
+<div class="time-cell passed">4</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">Given path "/auth/login"</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">And request {email: 'test@test.com',password: '12345678'}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">When method POST</div>
+</div>
+<div class="time-cell passed">4643</div>
+</div>
+<div class="preformatted" data-parent="10">13:08:38.475 request:
+1 &gt; POST https://ztrain-shop.herokuapp.com/auth/login
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 47
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: ztrain-shop.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:08:43.119 response time in milliseconds: 4641,36
+1 &lt; 201
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 331
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 06 Apr 2022 12:08:43 GMT
+1 &lt; Etag: W/"14b-3vHC2MFOc5mwkJ/yilFQerLH3pU"
+1 &lt; Server: Cowboy
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0NjkyMywiZXhwIjoxNjQ5MzMzMzIzfQ.0cp7gFP3Dm-xZTqTLPaODBPE7D9ze0r6FWQF0w5etZY"}</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">Then status 201</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">* def token = response.token</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

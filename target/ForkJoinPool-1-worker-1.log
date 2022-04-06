@@ -1,0 +1,58 @@
+13:08:31.200 >> lock acquired, begin callSingle: file:src/test/resources/features/user/login.feature
+13:08:31.896 request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 47
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:08:38.460 response time in milliseconds: 6562,00
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 331
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:08:38 GMT
+1 < Etag: W/"14b-ONEZZV66tE9yx8juHRvMnkz/joE"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0NjkxOCwiZXhwIjoxNjQ5MzMzMzE4fQ.WYM0GRd4PQ7-wSOg1cEEbIbogfY0_wlJmSrB03xsLyg"}
+
+13:08:38.475 << lock released, cached callSingle: file:src/test/resources/features/user/login.feature
+13:08:38.475 request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 47
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:08:43.119 response time in milliseconds: 4641,36
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 331
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:08:43 GMT
+1 < Etag: W/"14b-3vHC2MFOc5mwkJ/yilFQerLH3pU"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0NjkyMywiZXhwIjoxNjQ5MzMzMzIzfQ.0cp7gFP3Dm-xZTqTLPaODBPE7D9ze0r6FWQF0w5etZY"}
+
+lt = karate.callSingle('file:src/test/resources/features/user/login.feature', config);
+    config.authInfo = { authorization: "Bearer " + result.token };
+
+    return config
+}
+13:07:27.413 evaluation of 'karate-config.js' failed: javascript function call failed: com.intuit.karate.exception.KarateException: 
+[1.1:17] login.feature:11 - status code was: 400, expected: 201, response time: 1187, url: https://ztrain-shop.herokuapp.com/auth/login, response: {"message":["password must be longer than or equal to 8 and shorter than or equal to undefined characters"],"error":"Bad Request","statusCode":400}
+400}
+iption description Samsung Note 9 description Samsung Note 9 description","name":"Samsung Samsung Note Note 9","_id":"623c5cead1e8ea5a966d6fff","__v":0}
+

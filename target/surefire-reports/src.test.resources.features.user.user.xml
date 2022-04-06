@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/resources/features/user/user.feature" skipped="0" tests="1" time="13.294375">
+  <testcase classname="src.test.resources.features.user.user" name="Login user" time="13.294375">
+    <system-out>* url baseUrl ............................................................. passed
+Given path "/auth/login" .................................................. passed
+And def data = read('loginData.json') ..................................... passed
+And request data .......................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And def authToken = response.token ........................................ passed</system-out>
+  </testcase>
+</testsuite>

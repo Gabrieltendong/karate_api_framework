@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner" time="9.342" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pawk67\Documents\Gabriel\Projets\Karate\z-train-api-testing\target\test-classes;C:\Users\Pawk67\Documents\Gabriel\Projets\Karate\z-train-api-testing\target\classes;C:\Users\Pawk67\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\Pawk67\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\Pawk67\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Pawk67\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Pawk67\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Pawk67\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Pawk67\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Pawk67\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Pawk67\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\Pawk67\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\Pawk67\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\Pawk67\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\Pawk67\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Pawk67\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Pawk67\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\Pawk67\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Pawk67\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Pawk67\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Pawk67\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Pawk67\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\Pawk67\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\Pawk67\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pawk67\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pawk67\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\Pawk67\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\Pawk67\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pawk67\AppData\Local\Temp\surefire6237589897201746139\surefirebooter4178593116353386262.jar C:\Users\Pawk67\AppData\Local\Temp\surefire6237589897201746139 2022-04-06T13-09-10_429-jvmRun1 surefire4951529874116295422tmp surefire_09127250154399539418tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pawk67\Documents\Gabriel\Projets\Karate\z-train-api-testing\target\test-classes;C:\Users\Pawk67\Documents\Gabriel\Projets\Karate\z-train-api-testing\target\classes;C:\Users\Pawk67\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\Pawk67\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\Pawk67\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Pawk67\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Pawk67\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Pawk67\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Pawk67\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Pawk67\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Pawk67\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\Pawk67\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\Pawk67\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\Pawk67\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\Pawk67\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Pawk67\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Pawk67\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\Pawk67\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Pawk67\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Pawk67\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Pawk67\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Pawk67\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\Pawk67\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\Pawk67\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pawk67\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pawk67\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\Pawk67\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\Pawk67\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pawk67"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="C:\Users\Pawk67\Documents\Gabriel\Projets\Karate\z-train-api-testing"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pawk67\AppData\Local\Temp\surefire6237589897201746139\surefirebooter4178593116353386262.jar"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="Pawk67"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pawk67\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pawk67\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\Pawk67\Documents\Gabriel\Projets\Karate\z-train-api-testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8.0_191\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Pawk67\apache-maven-3.8.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\flutter\bin;C:\Users\Pawk67\AppData\Local\Android\Sdk;C:\Users\Pawk67\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\heroku\bin;C:\Users\Pawk67\scoop\shims;C:\Users\Pawk67\AppData\Local\Microsoft\WindowsApps;C:\Users\Pawk67\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pawk67\AppData\Local\Programs\Git\cmd;C:\Users\Pawk67\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAll" classname="TestRunner" time="4.692">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: product.feature:13 - status code was: 403, expected: 201, response time: 1914, url: https://ztrain-shop.herokuapp.com/product/create, response: {"error":"Ce Produit existe déja","status":403}
+]]></failure>
+    <system-out><![CDATA[13:09:11.731 [main] INFO com.intuit.karate - >> lock acquired, begin callSingle: file:src/test/resources/features/user/login.feature
+13:09:11.779 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:11.794 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:12.310 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+13:09:12.310 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:09:12.310 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 47
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:09:12.310 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+13:09:12.326 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:12.326 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://ztrain-shop.herokuapp.com:443
+13:09:12.576 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ztrain-shop.herokuapp.com/54.243.238.66:443
+13:09:12.576 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to ztrain-shop.herokuapp.com/54.243.238.66:443 with timeout 30000
+13:09:12.952 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+13:09:12.952 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:09:12.952 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+13:09:13.733 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+13:09:13.733 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+13:09:13.733 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+13:09:13.733 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.herokuapp.com
+13:09:13.733 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.herokuapp.com]
+13:09:13.733 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+13:09:13.733 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.151:30602<->54.243.238.66:443
+13:09:13.733 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 30000
+13:09:13.748 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /auth/login HTTP/1.1
+13:09:13.748 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+13:09:13.748 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /auth/login HTTP/1.1
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 47
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: ztrain-shop.herokuapp.com
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+13:09:13.748 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /auth/login HTTP/1.1[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 47[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: ztrain-shop.herokuapp.com[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+13:09:13.748 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"email":"test@test.com","password":"12345678"}"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: Cowboy[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 331[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Etag: W/"14b-HqfKeMjtqmM7t6mQfAtpXXvA+X4"[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Wed, 06 Apr 2022 12:09:14 GMT[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Via: 1.1 vegur[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+13:09:14.358 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU"}"
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 201 Created
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Server: Cowboy
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Powered-By: Express
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 331
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Etag: W/"14b-HqfKeMjtqmM7t6mQfAtpXXvA+X4"
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Wed, 06 Apr 2022 12:09:14 GMT
+13:09:14.358 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Via: 1.1 vegur
+13:09:14.358 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+13:09:14.358 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://ztrain-shop.herokuapp.com:443] can be kept alive indefinitely
+13:09:14.358 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+13:09:14.358 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:14.358 [main] DEBUG com.intuit.karate - response time in milliseconds: 2044,22
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 331
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:14 GMT
+1 < Etag: W/"14b-HqfKeMjtqmM7t6mQfAtpXXvA+X4"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU"}
+
+13:09:14.358 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:14.358 [main] INFO com.intuit.karate - << lock released, cached callSingle: file:src/test/resources/features/user/login.feature
+13:09:14.373 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:14.373 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:14.373 [main] INFO com.intuit.karate - [print] {
+  "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU"
+}
+
+13:09:14.373 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:14.373 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:14.373 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+13:09:14.389 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:09:14.389 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/product/create
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU
+1 > Connection: Keep-Alive
+1 > Content-Length: 311
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"name":"Samsung Samsung Note Note 9","description":"Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description description Samsung Note 9 description Samsung Note 9 description","image":"https://image.png","price":10,"isActive":false}
+
+13:09:14.389 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+13:09:14.389 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:14.389 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://ztrain-shop.herokuapp.com:443
+13:09:14.389 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ztrain-shop.herokuapp.com/54.243.238.66:443
+13:09:14.389 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to ztrain-shop.herokuapp.com/54.243.238.66:443 with timeout 30000
+13:09:14.765 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+13:09:14.765 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:09:14.765 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+13:09:15.579 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+13:09:15.579 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+13:09:15.579 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+13:09:15.579 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.herokuapp.com
+13:09:15.579 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.herokuapp.com]
+13:09:15.579 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+13:09:15.579 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.151:30603<->54.243.238.66:443
+13:09:15.579 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 30000
+13:09:15.579 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /product/create HTTP/1.1
+13:09:15.579 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /product/create HTTP/1.1
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=UTF-8
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 311
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: ztrain-shop.herokuapp.com
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+13:09:15.579 [main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /product/create HTTP/1.1[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NCwiZXhwIjoxNjQ5MzMzMzU0fQ.Hs_261rvKuIwpdX-hip7XAudtzTfIg29EMJ_ICzHGqU[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 311[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: ztrain-shop.herokuapp.com[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+13:09:15.579 [main] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"name":"Samsung Samsung Note Note 9","description":"Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description Samsung Note 9 description description Samsung Note 9 description Samsung Note 9 description","image":"https://image.png","price":10,"isActive":false}"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 403 Forbidden[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Server: Cowboy[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "X-Powered-By: Express[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Length: 48[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Etag: W/"30-ORabwwxDRuVgNOJ6ZA6+8WXTeLw"[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Date: Wed, 06 Apr 2022 12:09:16 GMT[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "Via: 1.1 vegur[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+13:09:16.299 [main] DEBUG org.apache.http.wire - http-outgoing-1 << "{"status":403,"error":"Ce Produit existe d[0xc3][0xa9]ja"}"
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 403 Forbidden
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Server: Cowboy
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Connection: keep-alive
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << X-Powered-By: Express
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Access-Control-Allow-Origin: *
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Length: 48
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Etag: W/"30-ORabwwxDRuVgNOJ6ZA6+8WXTeLw"
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Date: Wed, 06 Apr 2022 12:09:16 GMT
+13:09:16.299 [main] DEBUG org.apache.http.headers - http-outgoing-1 << Via: 1.1 vegur
+13:09:16.299 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+13:09:16.299 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {s}->https://ztrain-shop.herokuapp.com:443] can be kept alive indefinitely
+13:09:16.299 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+13:09:16.299 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:16.299 [main] DEBUG com.intuit.karate - response time in milliseconds: 1914,30
+1 < 403
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 48
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:16 GMT
+1 < Etag: W/"30-ORabwwxDRuVgNOJ6ZA6+8WXTeLw"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"status":403,"error":"Ce Produit existe déja"}
+
+13:09:16.299 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 1914, url: https://ztrain-shop.herokuapp.com/product/create, response: {"error":"Ce Produit existe déja","status":403}
+---------------------------------------------------------
+feature: classpath:features/product/product.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 1,9281
+---------------------------------------------------------
+13:09:16.299 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+]]></system-out>
+  </testcase>
+  <testcase name="testAll" classname="TestRunner" time="1.821">
+    <system-out><![CDATA[13:09:16.349 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:16.349 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:16.349 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+13:09:16.349 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:09:16.349 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 47
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test.com","password":"12345678"}
+
+13:09:16.349 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+13:09:16.349 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:16.349 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://ztrain-shop.herokuapp.com:443
+13:09:16.349 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ztrain-shop.herokuapp.com/54.243.238.66:443
+13:09:16.349 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to ztrain-shop.herokuapp.com/54.243.238.66:443 with timeout 30000
+13:09:16.700 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+13:09:16.700 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:09:16.700 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+13:09:17.414 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+13:09:17.414 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+13:09:17.414 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+13:09:17.414 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.herokuapp.com
+13:09:17.414 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.herokuapp.com]
+13:09:17.414 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+13:09:17.414 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.151:30604<->54.243.238.66:443
+13:09:17.414 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 30000
+13:09:17.414 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /auth/login HTTP/1.1
+13:09:17.414 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+13:09:17.414 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> POST /auth/login HTTP/1.1
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json; charset=UTF-8
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Length: 47
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: ztrain-shop.herokuapp.com
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+13:09:17.414 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+13:09:17.414 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "POST /auth/login HTTP/1.1[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Length: 47[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: ztrain-shop.herokuapp.com[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+13:09:17.430 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"email":"test@test.com","password":"12345678"}"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 201 Created[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Server: Cowboy[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "X-Powered-By: Express[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Length: 331[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Etag: W/"14b-B91qavfAsN4VXAduUAAKz2x1Svo"[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Date: Wed, 06 Apr 2022 12:09:17 GMT[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Via: 1.1 vegur[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+13:09:18.135 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NywiZXhwIjoxNjQ5MzMzMzU3fQ.vc1zqjT8cHKRi3kKRWkQP0TW2tprxPwPhGjEQ_qeu10"}"
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 201 Created
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Server: Cowboy
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Connection: keep-alive
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << X-Powered-By: Express
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Allow-Origin: *
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Length: 331
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Etag: W/"14b-B91qavfAsN4VXAduUAAKz2x1Svo"
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Date: Wed, 06 Apr 2022 12:09:17 GMT
+13:09:18.135 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Via: 1.1 vegur
+13:09:18.135 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+13:09:18.135 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 2][route: {s}->https://ztrain-shop.herokuapp.com:443] can be kept alive indefinitely
+13:09:18.135 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 0
+13:09:18.135 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:18.135 [main] DEBUG com.intuit.karate - response time in milliseconds: 1791,97
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 331
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:17 GMT
+1 < Etag: W/"14b-B91qavfAsN4VXAduUAAKz2x1Svo"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTI0Njk1NywiZXhwIjoxNjQ5MzMzMzU3fQ.vc1zqjT8cHKRi3kKRWkQP0TW2tprxPwPhGjEQ_qeu10"}
+
+13:09:18.135 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+---------------------------------------------------------
+feature: classpath:features/user/login.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 1,7955
+---------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testAll" classname="TestRunner" time="2.435">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: user.feature:11 - status code was: 400, expected: 201, response time: 2407, url: https://ztrain-shop.herokuapp.com/user/register, response: {"message":"user already exists","statusCode":400}
+]]></failure>
+    <system-out><![CDATA[13:09:18.151 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:18.167 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:18.167 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+13:09:18.167 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+13:09:18.167 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:09:18.167 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 51
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ztrain-shop.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+{"email":"test@test1234.com","password":"12345678"}
+
+13:09:18.167 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+13:09:18.167 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:18.167 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://ztrain-shop.herokuapp.com:443
+13:09:18.167 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ztrain-shop.herokuapp.com/54.243.238.66:443
+13:09:18.167 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to ztrain-shop.herokuapp.com/54.243.238.66:443 with timeout 30000
+13:09:19.447 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+13:09:19.447 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:09:19.447 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+13:09:20.071 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+13:09:20.071 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+13:09:20.071 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+13:09:20.071 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.herokuapp.com
+13:09:20.071 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.herokuapp.com]
+13:09:20.071 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+13:09:20.071 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.151:30605<->54.243.238.66:443
+13:09:20.071 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 30000
+13:09:20.071 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /user/register HTTP/1.1
+13:09:20.071 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+13:09:20.071 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /user/register HTTP/1.1
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 51
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: ztrain-shop.herokuapp.com
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)
+13:09:20.071 [main] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /user/register HTTP/1.1[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 51[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: ztrain-shop.herokuapp.com[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_191)[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+13:09:20.071 [main] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"email":"test@test1234.com","password":"12345678"}"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 400 Bad Request[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Server: Cowboy[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "X-Powered-By: Express[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Length: 50[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Date: Wed, 06 Apr 2022 12:09:20 GMT[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "Via: 1.1 vegur[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+13:09:20.571 [main] DEBUG org.apache.http.wire - http-outgoing-3 << "{"statusCode":400,"message":"user already exists"}"
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 400 Bad Request
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Server: Cowboy
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Connection: keep-alive
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << X-Powered-By: Express
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Origin: *
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Length: 50
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Date: Wed, 06 Apr 2022 12:09:20 GMT
+13:09:20.571 [main] DEBUG org.apache.http.headers - http-outgoing-3 << Via: 1.1 vegur
+13:09:20.571 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+13:09:20.571 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}->https://ztrain-shop.herokuapp.com:443] can be kept alive indefinitely
+13:09:20.571 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+13:09:20.571 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}->https://ztrain-shop.herokuapp.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+13:09:20.571 [main] DEBUG com.intuit.karate - response time in milliseconds: 2406,75
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 50
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Apr 2022 12:09:20 GMT
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"statusCode":400,"message":"user already exists"}
+
+13:09:20.571 [main] ERROR com.intuit.karate - status code was: 400, expected: 201, response time: 2407, url: https://ztrain-shop.herokuapp.com/user/register, response: {"message":"user already exists","statusCode":400}
+---------------------------------------------------------
+feature: classpath:features/user/user.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 2,4177
+---------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>
