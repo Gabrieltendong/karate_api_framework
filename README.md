@@ -5,7 +5,7 @@
 #using git
 $ git clone https://github.com/Gabrieltendong/karate_api_framework.git
 ```
-## Running project
+## Running projet
 ```
 #using mvn
 $ mvn test
