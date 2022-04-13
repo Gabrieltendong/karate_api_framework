@@ -9,7 +9,7 @@ function (){
             baseUrl: 'https://ztrain-shop.herokuapp.com',
     }
 
-    var result = karate.callSingle('file:src/test/resources/features/user/login.feature', config);
+    var result = karate.callSingle('file:src/test/java/user/login.feature', config);
     config.authInfo = { authorization: "Bearer " + result.token };
 
     return config
